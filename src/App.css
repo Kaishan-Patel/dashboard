@@ -1,0 +1,14 @@
+.App {
+    background-color: #F2E9E2;
+    min-height: 100vh;
+}
+
+.Grid-Layout {
+    padding-top: 10px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.Tabs-Layout {
+    padding: 20px;
+}
