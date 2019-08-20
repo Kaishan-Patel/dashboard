@@ -1,3 +1,53 @@
+# Create React App [![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/pulls)
+
+Create React apps with no build configuration.
+
+- [Creating an App](#creating-an-app) – How to create a new app.
+- [User Guide](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.
+
+Create React App works on macOS, Windows, and Linux.<br>
+If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).<br>
+If you have questions or need help, please ask in our [Spectrum](https://spectrum.chat/create-react-app) community.
+
+## Quick Overview
+
+```sh
+npx create-react-app my-app
+cd my-app
+npm start
+```
+
+_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
+
+Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
+When you’re ready to deploy to production, create a minified bundle with `npm run build`.
+
+<p align='center'>
+<img src='https://cdn.rawgit.com/facebook/create-react-app/27b42ac/screencast.svg' width='600' alt='npm start'>
+</p>
+
+## Creating an App
+
+**You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to easily switch Node versions between different projects.
+
+To create a new app, you may choose one of the following methods:
+
+### npx
+
+```sh
+npx create-react-app my-app
+```
+
+_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
+
+### npm
+
+```sh
+npm init react-app my-app
+```
+
+_`npm init <initializer>` is available in npm 6+_
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -7,7 +57,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
@@ -37,32 +87,57 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<h1 align="center">Material-UI</h1>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div align="center">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[React](https://reactjs.org/) components that implement [Google's Material Design](https://www.google.com/design/spec/material-design/introduction.html).
 
-### Code Splitting
+## Installation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Material-UI is available as an [npm package](https://www.npmjs.com/package/@material-ui/core).
 
-### Analyzing the Bundle Size
+**[Stable channel v4](https://material-ui.com/)**
+```sh
+// with npm
+npm install @material-ui/core
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```sh
+// with npm
+npm install @material-ui/icons
+```
 
-### Making a Progressive Web App
+# React Google Charts
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+A thin, typed, React wrapper for [Google Charts](https://developers.google.com/chart/interactive/docs/reference).
 
-### Advanced Configuration
+## Installation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+With your favorite package manager (yarn, pnpm or npm) :
 
-### Deployment
+```sh
+yarn add react-google-charts
+# or
+npm i -s react-google-charts
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+# react-tabs [![Build Status](https://travis-ci.org/reactjs/react-tabs.svg?branch=master)](https://travis-ci.org/reactjs/react-tabs) [![npm version](https://img.shields.io/npm/v/react-tabs.svg)](https://www.npmjs.com/package/react-tabs) [![Open Source Helpers](https://www.codetriage.com/reactjs/react-tabs/badges/users.svg)](https://www.codetriage.com/reactjs/react-tabs)
 
-### `npm run build` fails to minify
+An accessible and easy tab component for ReactJS.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://reactcommunity.org/react-tabs/
+
+> Supports React 16.3.0 or newer
+
+## Installing
+
+```bash
+yarn add react-tabs
+```
+or
+```bash
+npm install --save react-tabs
+```
+
+
